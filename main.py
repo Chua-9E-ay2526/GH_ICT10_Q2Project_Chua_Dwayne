@@ -51,8 +51,6 @@ def ElementFind(e):
     display(nonmetal_Elements.get(NM_Element_Symbol, ("The element is not a nonmetal.")))
 
 # seatwork
-from pyscript import display, document
-
 def view_club(e):
     document.getElementById('result').innerHTML = ' '
     verifclubmember = ['Dwayne Chua', 'Marcus Viray', 'Jesse Villante', 'Kaizer Chua', '6 7']
